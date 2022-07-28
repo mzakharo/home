@@ -50,7 +50,7 @@ set wildmode=longest,list,full " show full directory contents on 'e'
 " set incsearch
 " set hlsearch
 
-set mouse+=r        " allow mouse for "his enter" screens
+" set mouse+=r        " allow mouse for "his enter" screens
 " set mousefocus      " focus the window that the mouse is pointing at
 set guioptions-=m   " no menus
 "set guioptions-=T   " no toolbar
