@@ -41,6 +41,7 @@ set history=100      " keep more history items
 set spell
 set ignorecase
 set smartcase
+set wildmode=longest,list,full " show full directory contents on 'e' 
 
 " set incsearch
 " set hlsearch
