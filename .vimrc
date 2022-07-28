@@ -15,9 +15,13 @@ let os=GetRunningOS()
 
 set nocompatible        " use VIM rather than VI defaults
 
-set clipboard=unnamed   " use the system clipboard for yanks and pastes
+set clipboard=unnamedplus   " use the system clipboard for yanks and pastes
 set guioptions+=a   " use system paste buffer
 set showmatch       " show matching brackets
+set incsearch
+set hlsearch
+
+
 
 set expandtab
 set tabstop=2
@@ -48,7 +52,7 @@ set wildmode=longest,list,full " show full directory contents on 'e'
 
 set mouse+=r        " allow mouse for "his enter" screens
 " set mousefocus      " focus the window that the mouse is pointing at
-"set guioptions-=m   " no menus
+set guioptions-=m   " no menus
 "set guioptions-=T   " no toolbar
 
 set nojoinspaces    " don't use two spaces after a '.' when joining lines
